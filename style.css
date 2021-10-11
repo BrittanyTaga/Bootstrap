@@ -1,0 +1,61 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to gray on hover. This is indicating the lists with an anchor tag */
+li a:hover {
+    background-color: gray;
+}
+
+
+
+/*referenceing an id*/
+#logo{
+    background-color: red;
+}
+
+/*adding in animation*/
+
+p{
+    background-color: white;
+    animation-name: colorchange;
+    animation-duration: 4s;
+}
+
+@keyframes colorchange{
+    from {background-color:white;}
+    to{background-color:khaki;}
+}
+
+
+/*adding in shadow*/
+h1{
+    text-shadow: 2px 2px indianred;
+}
+
+
+input[type=text]{
+    float: center;
+    margin-top: 10px;
+}
+
+#Signin{
+    float: right;
+    color: white;
+}
